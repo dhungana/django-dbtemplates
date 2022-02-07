@@ -5,6 +5,3 @@ try:
 except DistributionNotFound:
     # package is not installed
     __version__ = None
-
-
-default_app_config = 'dbtemplates.apps.DBTemplatesConfig'
